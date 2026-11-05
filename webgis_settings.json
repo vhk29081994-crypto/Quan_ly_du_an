@@ -71,7 +71,7 @@
       ],
       "field_aliases": {},
       "label": {
-        "enabled": true,
+        "enabled": false,
         "fields": [
           "Chủ sử dụng đất"
         ],
