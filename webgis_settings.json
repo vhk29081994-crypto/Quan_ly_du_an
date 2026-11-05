@@ -1,0 +1,110 @@
+{
+  "_meta": {
+    "version": 1,
+    "project": "Unnamed",
+    "saved_at": "2026-11-03T22:21:13",
+    "output_dir": "C:\\Users\\Administrator\\Desktop\\WebGIS_Export"
+  },
+  "output_dir": "C:\\Users\\Administrator\\Desktop\\WebGIS_Export",
+  "webgis_settings": {
+    "name": "WebGIS",
+    "subtitle": "Ứng dụng quản lý cơ sở dữ liệu bản đồ",
+    "icon_url": "",
+    "icon_local_path": "",
+    "gemini_api_key": "",
+    "name_font": "inherit",
+    "name_size": 14,
+    "name_bold": true,
+    "name_italic": false,
+    "name_color": "#ffffff",
+    "sub_font": "inherit",
+    "sub_size": 15,
+    "sub_bold": false,
+    "sub_italic": false,
+    "sub_color": "#e0f2fe",
+    "web_theme": "ocean"
+  },
+  "initial_view": {
+    "mode": "qgis_extent",
+    "lat": 11.101732,
+    "lng": 106.719974,
+    "zoom": 15,
+    "bounds": [
+      11.0663146,
+      106.7139968,
+      11.1371497,
+      106.7259508
+    ]
+  },
+  "planet_preset": [],
+  "sentinel_preset": [],
+  "epicollect5_preset": [],
+ "cloudflare_settings": {
+    "autodeploy": false,
+    "api_token": "",
+    "account_id": ""
+  },
+  "layer_order": [
+    "Dự án Cao tốc — Danh sách thửa đất ảnh hưởng"
+  ],
+  "layers": {
+    "Dự án Cao tốc — Danh sách thửa đất ảnh hưởng": {
+      "checked": true,
+      "search_fields": [
+        "fid",
+        "STT",
+        "Chủ sử dụng đất",
+        "Địa chỉ",
+        "Năm sinh",
+        "CMND/ CCCD",
+        "Số thửa đất",
+        "Tờ bản đồ",
+        "Loại đất dự kiến thu hồi",
+        "Tổng diện tích đất ảnh hưởng (m²)",
+        "Số TB",
+        "Ngày ban hành",
+        "Số điện thoại",
+        "SỐ ÁP GIÁ",
+        "Quyết định phê quyệt",
+        "Hiện trạng",
+        "Tình trạng"
+      ],
+      "field_aliases": {},
+      "label": {
+        "enabled": true,
+        "fields": [
+          "Chủ sử dụng đất"
+        ],
+        "label_expression": "\"Chủ sử dụng đất\""
+      },
+      "display": {
+        "show_btn_zoom": true,
+        "show_btn_attr": true,
+        "show_btn_label": true,
+        "show_btn_color": true,
+        "show_btn_shape": true,
+        "show_btn_edit": true,
+        "tools_collapsed": false,
+        "layer_hidden": false,
+        "enable_cluster": false,
+        "webgis_name": "",
+        "layer_min_scale": null,
+        "layer_max_scale": null
+      },
+      "image_fields": [],
+      "style": {
+        "no_fill": true,
+        "fill_color": null,
+        "fill_opacity": 1.0,
+        "fill_pattern": "solid",
+        "stroke_color": "#2323ff",
+        "stroke_width": 1.2,
+        "stroke_dash": "solid",
+        "icon_emoji": "",
+        "icon_url": "",
+        "classify_field": "",
+        "classify_colors": {}
+      }
+    }
+  }
+}
